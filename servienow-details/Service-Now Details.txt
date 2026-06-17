@@ -1,0 +1,10 @@
+*** Service-Now Details ***
+-------------------------------
+
+Instance : https://dev210920.service-now.com/
+
+username: admin
+
+password: QnB5YL9m=+lo
+
+
