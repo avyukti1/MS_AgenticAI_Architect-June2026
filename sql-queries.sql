@@ -63,3 +63,15 @@ VALUES
 ('EMP019','Suresh','Nair','suresh@contoso.com','9876543228',2,'Data Engineer',4,'2022-04-18',105000,'Chennai','Active'),
 
 ('EMP020','Asha','Thomas','asha@contoso.com','9876543229',2,'Data Scientist',4,'2021-10-30',135000,'Bangalore','Active');
+
+
+/* Add 3 more new Employees */
+
+INSERT INTO dbo.Employee
+(EmployeeCode, FirstName, LastName, Email, Phone, DepartmentID, JobTitle, ManagerID, HireDate, Salary, City, Status)
+VALUES
+('EMP021','Harish','Kumar','harish@contoso.com','9876543230',2,'Backend Developer',4,'2023-06-01',92000,'Pune','Active'),
+
+('EMP022','Lavanya','Reddy','lavanya@contoso.com','9876543231',2,'Frontend Developer',4,'2023-08-15',88000,'Hyderabad','Active'),
+
+('EMP023','Deepak','Shah','deepak@contoso.com','9876543232',3,'Finance Executive',6,'2022-07-10',72000,'Mumbai','Active');
